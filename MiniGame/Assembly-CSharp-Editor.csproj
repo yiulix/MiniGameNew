@@ -61,20 +61,79 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Demigiant\DOTweenPro\Editor\DOTweenAnimationInspector.cs" />
+    <Compile Include="Assets\Fungus\Scripts\Editor\AssetModProcessor.cs" />
+    <Compile Include="Assets\Fungus\Scripts\Editor\BasePopupWindowContent.cs" />
+    <Compile Include="Assets\Fungus\Scripts\Editor\BlockEditor.cs" />
+    <Compile Include="Assets\Fungus\Scripts\Editor\BlockInspector.cs" />
+    <Compile Include="Assets\Fungus\Scripts\Editor\BlockReferenceDrawer.cs" />
+    <Compile Include="Assets\Fungus\Scripts\Editor\CallEditor.cs" />
+    <Compile Include="Assets\Fungus\Scripts\Editor\CameraMenuItems.cs" />
+    <Compile Include="Assets\Fungus\Scripts\Editor\CharacterEditor.cs" />
+    <Compile Include="Assets\Fungus\Scripts\Editor\CommandEditor.cs" />
+    <Compile Include="Assets\Fungus\Scripts\Editor\CommandListAdaptor.cs" />
+    <Compile Include="Assets\Fungus\Scripts\Editor\ControlAudioEditor.cs" />
+    <Compile Include="Assets\Fungus\Scripts\Editor\CustomGUI.cs" />
+    <Compile Include="Assets\Fungus\Scripts\Editor\DialogInputEditor.cs" />
+    <Compile Include="Assets\Fungus\Scripts\Editor\EditorExtensions.cs" />
+    <Compile Include="Assets\Fungus\Scripts\Editor\EditorZoomArea.cs" />
+    <Compile Include="Assets\Fungus\Scripts\Editor\EnumFlagDrawer.cs" />
+    <Compile Include="Assets\Fungus\Scripts\Editor\EventHandlerEditor.cs" />
+    <Compile Include="Assets\Fungus\Scripts\Editor\EventWindow.cs" />
+    <Compile Include="Assets\Fungus\Scripts\Editor\FlowchartEditor.cs" />
+    <Compile Include="Assets\Fungus\Scripts\Editor\FlowchartMenuItems.cs" />
+    <Compile Include="Assets\Fungus\Scripts\Editor\FlowchartWindow.cs" />
+    <Compile Include="Assets\Fungus\Scripts\Editor\FungusEditorPreferences.cs" />
+    <Compile Include="Assets\Fungus\Scripts\Editor\FungusEditorResources.cs" />
+    <Compile Include="Assets\Fungus\Scripts\Editor\FungusEditorResourcesGenerated.cs" />
+    <Compile Include="Assets\Fungus\Scripts\Editor\HierarchyIcons.cs" />
+    <Compile Include="Assets\Fungus\Scripts\Editor\InvokeEventEditor.cs" />
+    <Compile Include="Assets\Fungus\Scripts\Editor\InvokeMethodEditor.cs" />
+    <Compile Include="Assets\Fungus\Scripts\Editor\LabelEditor.cs" />
+    <Compile Include="Assets\Fungus\Scripts\Editor\LocalizationEditor.cs" />
+    <Compile Include="Assets\Fungus\Scripts\Editor\MenuEditor.cs" />
+    <Compile Include="Assets\Fungus\Scripts\Editor\MenuTimerEditor.cs" />
+    <Compile Include="Assets\Fungus\Scripts\Editor\NarrativeMenuItems.cs" />
+    <Compile Include="Assets\Fungus\Scripts\Editor\PopupContent\CommandSelectorPopupWindowContent.cs" />
+    <Compile Include="Assets\Fungus\Scripts\Editor\PopupContent\EventSelectorPopupWindowContent.cs" />
+    <Compile Include="Assets\Fungus\Scripts\Editor\PopupContent\VariableSelectPopupWindowContent.cs" />
+    <Compile Include="Assets\Fungus\Scripts\Editor\PortraitEditor.cs" />
+    <Compile Include="Assets\Fungus\Scripts\Editor\SaveMenuEditor.cs" />
+    <Compile Include="Assets\Fungus\Scripts\Editor\SaveMenuItems.cs" />
+    <Compile Include="Assets\Fungus\Scripts\Editor\SayEditor.cs" />
+    <Compile Include="Assets\Fungus\Scripts\Editor\SerializedPropertyExtensions.cs" />
+    <Compile Include="Assets\Fungus\Scripts\Editor\SetVariableEditor.cs" />
+    <Compile Include="Assets\Fungus\Scripts\Editor\SpriteMenuItems.cs" />
+    <Compile Include="Assets\Fungus\Scripts\Editor\StageEditor.cs" />
+    <Compile Include="Assets\Fungus\Scripts\Editor\VariableConditionEditor.cs" />
+    <Compile Include="Assets\Fungus\Scripts\Editor\VariableEditor.cs" />
+    <Compile Include="Assets\Fungus\Scripts\Editor\VariableListAdaptor.cs" />
+    <Compile Include="Assets\Fungus\Scripts\Editor\VariableReferenceDrawer.cs" />
+    <Compile Include="Assets\Fungus\Scripts\Editor\ViewEditor.cs" />
+    <Compile Include="Assets\Fungus\Scripts\Editor\WriteEditor.cs" />
+    <Compile Include="Assets\Fungus\Scripts\Editor\WriterAudioEditor.cs" />
+    <Compile Include="Assets\Fungus\Thirdparty\FungusLua\Scripts\Editor\DropDownControl.cs" />
+    <Compile Include="Assets\Fungus\Thirdparty\FungusLua\Scripts\Editor\ExecuteHandlerEditor.cs" />
+    <Compile Include="Assets\Fungus\Thirdparty\FungusLua\Scripts\Editor\LuaBindingsEditor.cs" />
+    <Compile Include="Assets\Fungus\Thirdparty\FungusLua\Scripts\Editor\LuaScriptEditor.cs" />
+    <Compile Include="Assets\Fungus\Thirdparty\FungusLua\Scripts\Editor\LuaStoreEditor.cs" />
+    <Compile Include="Assets\Fungus\Thirdparty\FungusLua\Scripts\Editor\LuaUtilsEditor.cs" />
+    <Compile Include="Assets\Fungus\Thirdparty\FungusLua\Scripts\Editor\MenuItems.cs" />
+    <Compile Include="Assets\Fungus\Thirdparty\LineEndings\Editor\LineEndingsEditMenu.cs" />
+    <Compile Include="Assets\Fungus\Thirdparty\Usfxr\Editor\SfxrGenerator.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/zhuge.yiulix/Documents/MiniGame/MiniGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/zhuge.yiulix/Documents/MiniGameNew/MiniGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/zhuge.yiulix/Documents/MiniGame/MiniGame/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/zhuge.yiulix/Documents/MiniGameNew/MiniGame/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/zhuge.yiulix/Documents/MiniGame/MiniGame/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/zhuge.yiulix/Documents/MiniGameNew/MiniGame/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/zhuge.yiulix/Documents/MiniGame/MiniGame/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/zhuge.yiulix/Documents/MiniGameNew/MiniGame/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>C:/Users/zhuge.yiulix/Documents/MiniGame/MiniGame/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>C:/Users/zhuge.yiulix/Documents/MiniGameNew/MiniGame/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -310,47 +369,47 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.Advertisements">
-      <HintPath>C:/Users/zhuge.yiulix/Documents/MiniGame/MiniGame/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.Editor">
-      <HintPath>C:/Users/zhuge.yiulix/Documents/MiniGame/MiniGame/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>C:/Users/zhuge.yiulix/Documents/MiniGame/MiniGame/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>C:/Users/zhuge.yiulix/Documents/MiniGame/MiniGame/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.Purchasing">
-      <HintPath>C:/Users/zhuge.yiulix/Documents/MiniGame/MiniGame/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTweenEditor">
-      <HintPath>C:/Users/zhuge.yiulix/Documents/MiniGame/MiniGame/Assets/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTween46">
-      <HintPath>C:/Users/zhuge.yiulix/Documents/MiniGame/MiniGame/Assets/Demigiant/DOTween/DOTween46.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTweenProEditor">
-      <HintPath>C:/Users/zhuge.yiulix/Documents/MiniGame/MiniGame/Assets/Demigiant/DOTweenPro/Editor/DOTweenProEditor.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTween50">
-      <HintPath>C:/Users/zhuge.yiulix/Documents/MiniGame/MiniGame/Assets/Demigiant/DOTween/DOTween50.dll</HintPath>
-    </Reference>
     <Reference Include="DemiLib">
-      <HintPath>C:/Users/zhuge.yiulix/Documents/MiniGame/MiniGame/Assets/Demigiant/DemiLib/Core/DemiLib.dll</HintPath>
+      <HintPath>C:/Users/zhuge.yiulix/Documents/MiniGameNew/MiniGame/Assets/Demigiant/DemiLib/Core/DemiLib.dll</HintPath>
     </Reference>
     <Reference Include="DemiEditor">
-      <HintPath>C:/Users/zhuge.yiulix/Documents/MiniGame/MiniGame/Assets/Demigiant/DemiLib/Core/Editor/DemiEditor.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTween43">
-      <HintPath>C:/Users/zhuge.yiulix/Documents/MiniGame/MiniGame/Assets/Demigiant/DOTween/DOTween43.dll</HintPath>
+      <HintPath>C:/Users/zhuge.yiulix/Documents/MiniGameNew/MiniGame/Assets/Demigiant/DemiLib/Core/Editor/DemiEditor.dll</HintPath>
     </Reference>
     <Reference Include="DOTween">
-      <HintPath>C:/Users/zhuge.yiulix/Documents/MiniGame/MiniGame/Assets/Demigiant/DOTween/DOTween.dll</HintPath>
+      <HintPath>C:/Users/zhuge.yiulix/Documents/MiniGameNew/MiniGame/Assets/Demigiant/DOTween/DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween43">
+      <HintPath>C:/Users/zhuge.yiulix/Documents/MiniGameNew/MiniGame/Assets/Demigiant/DOTween/DOTween43.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween46">
+      <HintPath>C:/Users/zhuge.yiulix/Documents/MiniGameNew/MiniGame/Assets/Demigiant/DOTween/DOTween46.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween50">
+      <HintPath>C:/Users/zhuge.yiulix/Documents/MiniGameNew/MiniGame/Assets/Demigiant/DOTween/DOTween50.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTweenEditor">
+      <HintPath>C:/Users/zhuge.yiulix/Documents/MiniGameNew/MiniGame/Assets/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
     </Reference>
     <Reference Include="DOTweenPro">
-      <HintPath>C:/Users/zhuge.yiulix/Documents/MiniGame/MiniGame/Assets/Demigiant/DOTweenPro/DOTweenPro.dll</HintPath>
+      <HintPath>C:/Users/zhuge.yiulix/Documents/MiniGameNew/MiniGame/Assets/Demigiant/DOTweenPro/DOTweenPro.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTweenProEditor">
+      <HintPath>C:/Users/zhuge.yiulix/Documents/MiniGameNew/MiniGame/Assets/Demigiant/DOTweenPro/Editor/DOTweenProEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Advertisements">
+      <HintPath>C:/Users/zhuge.yiulix/Documents/MiniGameNew/MiniGame/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Editor">
+      <HintPath>C:/Users/zhuge.yiulix/Documents/MiniGameNew/MiniGame/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.StandardEvents">
+      <HintPath>C:/Users/zhuge.yiulix/Documents/MiniGameNew/MiniGame/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Tracker">
+      <HintPath>C:/Users/zhuge.yiulix/Documents/MiniGameNew/MiniGame/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Purchasing">
+      <HintPath>C:/Users/zhuge.yiulix/Documents/MiniGameNew/MiniGame/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
